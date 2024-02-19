@@ -8,7 +8,7 @@ df = st.file_uploader("Upload the CSV file : ",type =['csv','xlsx'])
 #if df is not None:
 #    st.dataframe(df)
 
-df = pd.read_csv(r"C:\Users\priya\Desktop\Ashish\streamit\Products.csv")
+df = pd.read_csv("Products.csv")
 
 st.table(df.head())
 
