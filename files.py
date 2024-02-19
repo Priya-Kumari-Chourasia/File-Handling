@@ -13,7 +13,7 @@ df = pd.read_csv("Products.csv")
 st.table(df.head())
 
 st.subheader('Dealing with images')
-st.image("/Users/priya/Desktop/Ashish/streamit/img.jpg")
+st.image("img.jpg")
 
 img_file = st.file_uploader("Upload the Image file : ",type = ['png','jpeg'])
 if img_file is not None:
